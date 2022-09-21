@@ -1,5 +1,5 @@
 #N canvas 539 116 736 637 10;
-#X declare -path ../../rr_Libs;
+#X declare -path ../abs/rr_Libs;
 #X obj 8 17 cnv 15 680 40 empty empty Generative_series 20 12 0 14
 -233017 -66577 0;
 #X obj 303 21 cnv 15 380 40 empty empty ABS:rr_brownian 20 20 0 24
@@ -33,7 +33,7 @@ you choose bang occures.;
 #X text 308 157 You can put the init note in 2nd inlet (midi value
 0-127). Slide for how much can move the next number from previous.
 ;
-#X obj 29 79 declare -path ../../rr_Libs;
+#X obj 29 79 declare -path ../abs/rr_Libs;
 #X connect 2 0 6 0;
 #X connect 2 1 6 1;
 #X connect 3 0 14 1;
@@ -49,3 +49,4 @@ you choose bang occures.;
 #X connect 17 0 15 0;
 #X connect 18 0 2 0;
 #X connect 18 1 2 0;
+#X connect 18 1 2 1;
