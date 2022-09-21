@@ -1,5 +1,5 @@
 #N canvas 539 116 736 637 10;
-#X declare -path ../../rr_Libs;
+#X declare -path ../abs/rr_Libs;
 #X obj 8 17 cnv 15 680 40 empty empty Generative_series 20 12 0 14
 -233017 -66577 0;
 #X obj 303 21 cnv 15 380 40 empty empty ABS:rr_tone 20 20 0 24 -128992
@@ -39,7 +39,7 @@ of sequence] \; [set] reset. Es: have circle of fifth with 7 in int.
 [set].You can click [set] again for a new sequence. You can bang in
 2nd inlet to [set]. 3rd inlet (2-6) how many repetitions of sequence
 to bang out in 2nd outlet.;
-#X obj 29 79 declare -path ../../rr_Libs;
+#X obj 29 79 declare -path ../abs/rr_Libs;
 #X connect 2 0 4 0;
 #X connect 2 1 4 1;
 #X connect 3 0 16 0;
